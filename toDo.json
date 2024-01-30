@@ -1,0 +1,22 @@
+[
+    {
+        "text":"Comprare cena",
+        "done": false
+    },
+    {
+        "text":"Tagliare barba",
+        "done": true
+    },
+    {
+        "text":"Prendere bambini",
+        "done": false
+    },
+    {
+        "text":"Uscire cane",
+        "done": true
+    },
+    {
+        "text":"Guardare serie tv",
+        "done": false
+    }
+]
