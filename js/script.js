@@ -18,7 +18,17 @@ createApp({
             })
 
         },
-        
+        toggleTodo(index){
+            const data={
+                taskIndex : index,
+            }
+
+            axios.post(this.apiUrl, data, {
+                Headers: {'Content-type': 'multipart/form-data'}
+            }).then((response) => {
+                this.todolist = response.data
+            });
+        } 
 
     }
 }).mount('#app');
